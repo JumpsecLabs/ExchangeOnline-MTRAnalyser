@@ -88,7 +88,7 @@ You will be interactively prompted for:
 
 ## Author
 
-Made by **Fr4n** – Senior Cyber Security Consultant @JUMPSEC
+Made by **Fr4n** @JUMPSEC
 
 ## Licence
 
