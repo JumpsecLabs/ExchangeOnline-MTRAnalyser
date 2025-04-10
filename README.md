@@ -53,7 +53,7 @@ git clone https://github.com/JumpsecLabs/MTR-Analyser.git
 Run the script in PowerShell:
 
 ```powershell
-.\Exchange-MTRAnalyser.ps1 [-ShowDisabled] [-Verbose]
+.\ExchangeOnline-MTRAnalyser.ps1 [-ShowDisabled] [-Verbose]
 ```
 
 ### Parameters:
@@ -66,7 +66,7 @@ Run the script in PowerShell:
 ### Example:
 
 ```powershell
-.\Exchange-MTRAnalyser.ps1 -ShowDisabled -Verbose
+.\ExchangeOnline-MTRAnalyser.ps1 -ShowDisabled -Verbose
 ```
 
 You will be interactively prompted for:
