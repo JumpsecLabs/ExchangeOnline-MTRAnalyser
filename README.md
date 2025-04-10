@@ -86,13 +86,9 @@ You will be interactively prompted for:
 | Yellow      | Warnings and fallback conditions   |
 | Red         | Critical security risks            |
 
----
-
 ## Author
 
-- **Fr4n** – Senior Cyber Security Consultant @ JUMPSEC
-
----
+Made by **Fr4n** – Senior Cyber Security Consultant @JUMPSEC
 
 ## Licence
 
