@@ -13,7 +13,7 @@ param (
 .PARAMETER ShowDisabled
     Displays audit details for disabled rules beyond the Disabled Rules section.
 .EXAMPLE
-    .\Exchange-MTRAnalyser.ps1 -ShowDisabled -Verbose
+    .\ExchangeOnline-MTRAnalyser.ps1 -ShowDisabled -Verbose
 #>
 
 # Suppress welcome/warning messages
