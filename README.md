@@ -2,13 +2,9 @@
 
 A PowerShell script that analyses Mail Transport Rules leveraging the Exchange Online PowerShell Module.
 
----
-
 ## Overview
 
 This PowerShell script connects to Exchange Online, retrieves and audits Mail Transport Rules (MTRs), and provides detailed, color-coded analysis and recommendations. It's specifically designed to enhance visibility, security auditing, and compliance by identifying potentially insecure configurations, rule conflicts, domain fronting risks, and other best practice deviations.
-
----
 
 ## Features
 
@@ -29,8 +25,6 @@ This PowerShell script connects to Exchange Online, retrieves and audits Mail Tr
 - ASN scanning for external IPs via HackerTarget API.
 - Allows submission of trusted domains and suspicious domains lists for easy highlighting.
 
----
-
 ## Installation
 
 Clone or download the script from this repository:
@@ -38,8 +32,6 @@ Clone or download the script from this repository:
 ```shell
 git clone https://github.com/JumpsecLabs/MTR-Analyser.git
 ```
-
----
 
 ## Prerequisites
 
@@ -81,8 +73,6 @@ You will be interactively prompted for:
 - Optional ASN scanning
 - Paths for trusted domains and domain fronting lists (if available)
 
----
-
 ## Output Legend
 
 | Color       | Meaning                            |
@@ -95,16 +85,6 @@ You will be interactively prompted for:
 | Blue        | Domains susceptible to fronting    |
 | Yellow      | Warnings and fallback conditions   |
 | Red         | Critical security risks            |
-
----
-
-## Security Recommendations
-
-Review highlighted risks carefully, especially:
-- Potentially abusable domains for Domain fronting techniques
-- External IP access
-- Overly permissive rules (`SCL = -1`)
-- Rules without incident logging/reporting
 
 ---
 
