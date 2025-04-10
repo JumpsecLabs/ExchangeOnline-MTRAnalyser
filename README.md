@@ -22,7 +22,7 @@ This PowerShell script connects to Exchange Online, retrieves and audits Mail Tr
   - Overly permissive rules
   - Rules lacking proper disclaimers or stamping for external sources
 - Optional verbose output with step-by-step review.
-- ASN scanning for external IPs via HackerTarget API.
+- ASN scanning for external IPs via HackerTarget API (Don't get rate-limited!).
 - Allows submission of trusted domains and suspicious domains lists for easy highlighting.
 
 ## Installation
